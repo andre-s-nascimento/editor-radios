@@ -8,7 +8,6 @@ from tkinter import Menu
 from pathlib import Path
 from datetime import datetime
 
-# Debug inicial - mostra os caminhos quando o programa inicia
 class RadioStationEditor:
 
     def __init__(self, root):
