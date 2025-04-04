@@ -2,3 +2,8 @@
 /user_settings.json.bak
 /venv
 sh-add USERPROFILE.sshid_ed25519
+/build
+/dist
+*.exe
+*.iss
+*.webmanifest
