@@ -1,0 +1,54 @@
+{
+    "app_title": "🎧 Editor Stazioni Radio 📻",
+    "buttons": {
+        "open": "📂 Apri",
+        "save": "💾 Salva",
+        "add": "➕ Aggiungi",
+        "edit": "✏️ Modifica",
+        "remove": "❌ Rimuovi",
+        "language": "🌐 Lingua"
+    },
+    "columns": {
+        "favorite": "⭐ Preferiti",
+        "name": "📻 Nome",
+        "genre": "🎵 Genere",
+        "country": "🌍 Paese",
+        "bitrate": "🔊 Bitrate (kbps)"
+    },
+    "messages": {
+        "save_success": "File salvato con successo!",
+        "save_error": "Errore durante il salvataggio: {error}",
+        "confirm_remove": "Sei sicuro di voler rimuovere questa stazione?",
+        "no_file": "Nessun file aperto da salvare",
+        "select_station": "Seleziona una stazione",
+        "error_title": "Errore",
+        "success_title": "Successo",
+        "warning_title": "Avviso",
+        "confirm_title": "Conferma",
+        "add_title": "Aggiungi Stazione",
+        "edit_title": "Modifica Stazione",
+        "url_label": "URL:",
+        "name_label": "Nome:",
+        "genre_label": "Genere:",
+        "country_label": "Paese:",
+        "bitrate_label": "Bitrate:",
+        "favorite_label": "Preferiti:",
+        "save_btn": "Salva",
+        "load_error": "Errore di caricamento file",
+        "invalid_file": "Formato file non valido"
+    },
+    "languages": {
+        "pt_BR": "Português (Brasil)",
+        "en_US": "English (USA)",
+        "es_ES": "Español (España)",
+        "es_MX": "Español (México)",
+        "tr_TR": "Türkçe (Türkiye)",
+        "ru_RU": "Русский (Россия)",
+        "nl_NL": "Nederlands (Nederland)",
+        "pl_PL": "Polski (Polska)",
+        "fr_FR": "Français (France)",
+        "el_GR": "Ελληνικά (Ελλάδα)",
+        "it_IT": "Italiano (Italia)",
+        "de_CH": "Deutsch (Schweiz)"
+    }
+}

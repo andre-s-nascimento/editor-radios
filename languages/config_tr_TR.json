@@ -1,0 +1,54 @@
+{
+    "app_title": "🎧 Radyo İstasyonu Düzenleyici 📻",
+    "buttons": {
+        "open": "📂 Aç",
+        "save": "💾 Kaydet",
+        "add": "➕ Ekle",
+        "edit": "✏️ Düzenle",
+        "remove": "❌ Sil",
+        "language": "🌐 Dil"
+    },
+    "columns": {
+        "favorite": "⭐ Favori",
+        "name": "📻 İsim",
+        "genre": "🎵 Tür",
+        "country": "🌍 Ülke",
+        "bitrate": "🔊 Bitrate (kbps)"
+    },
+    "messages": {
+        "save_success": "Dosya başarıyla kaydedildi!",
+        "save_error": "Dosya kaydedilirken hata: {error}",
+        "confirm_remove": "Bu istasyonu silmek istediğinize emin misiniz?",
+        "no_file": "Kaydedilecek dosya açık değil",
+        "select_station": "Bir istasyon seçin",
+        "error_title": "Hata",
+        "success_title": "Başarılı",
+        "warning_title": "Uyarı",
+        "confirm_title": "Onay",
+        "add_title": "İstasyon Ekle",
+        "edit_title": "İstasyon Düzenle",
+        "url_label": "URL:",
+        "name_label": "İsim:",
+        "genre_label": "Tür:",
+        "country_label": "Ülke:",
+        "bitrate_label": "Bitrate:",
+        "favorite_label": "Favori:",
+        "save_btn": "Kaydet",
+        "load_error": "Dosya yüklenirken hata",
+        "invalid_file": "Geçersiz dosya formatı"
+    },
+    "languages": {
+        "pt_BR": "Português (Brasil)",
+        "en_US": "English (USA)",
+        "es_ES": "Español (España)",
+        "es_MX": "Español (México)",
+        "tr_TR": "Türkçe (Türkiye)",
+        "ru_RU": "Русский (Россия)",
+        "nl_NL": "Nederlands (Nederland)",
+        "pl_PL": "Polski (Polska)",
+        "fr_FR": "Français (France)",
+        "el_GR": "Ελληνικά (Ελλάδα)",
+        "it_IT": "Italiano (Italia)",
+        "de_CH": "Deutsch (Schweiz)"
+    }
+}

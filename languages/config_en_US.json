@@ -1,0 +1,54 @@
+{
+    "app_title": "🎧 Radio Station Editor 📻",
+    "buttons": {
+        "open": "📂 Open",
+        "save": "💾 Save",
+        "add": "➕ Add",
+        "edit": "✏️ Edit",
+        "remove": "❌ Remove",
+        "language": "🌐 Language"
+    },
+    "columns": {
+        "favorite": "⭐ Favorite",
+        "name": "📻 Name",
+        "genre": "🎵 Genre",
+        "country": "🌍 Country",
+        "bitrate": "🔊 Bitrate (kbps)"
+    },
+    "messages": {
+        "save_success": "File saved successfully!",
+        "save_error": "Error saving file: {error}",
+        "confirm_remove": "Are you sure you want to remove this station?",
+        "no_file": "No file open to save",
+        "select_station": "Select a station",
+        "error_title": "Error",
+        "success_title": "Success",
+        "warning_title": "Warning",
+        "confirm_title": "Confirm",
+        "add_title": "Add Station",
+        "edit_title": "Edit Station",
+        "url_label": "URL:",
+        "name_label": "Name:",
+        "genre_label": "Genre:",
+        "country_label": "Country:",
+        "bitrate_label": "Bitrate:",
+        "favorite_label": "Favorite:",
+        "save_btn": "Save",
+        "load_error": "Error loading file",
+        "invalid_file": "Invalid file format"
+    },
+    "languages": {
+        "pt_BR": "Português (Brasil)",
+        "en_US": "English (USA)",
+        "es_ES": "Español (España)",
+        "es_MX": "Español (México)",
+        "tr_TR": "Türkçe (Türkiye)",
+        "ru_RU": "Русский (Россия)",
+        "nl_NL": "Nederlands (Nederland)",
+        "pl_PL": "Polski (Polska)",
+        "fr_FR": "Français (France)",
+        "el_GR": "Ελληνικά (Ελλάδα)",
+        "it_IT": "Italiano (Italia)",
+        "de_CH": "Deutsch (Schweiz)"
+    }
+}
