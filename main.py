@@ -11,7 +11,8 @@ from datetime import datetime
 class RadioStationEditor:
 
     def __init__(self, root):
-        self.root = root        
+        self.root = root    
+            
         # Configura os paths
         self.base_dir = Path(__file__).parent
         self.languages_dir = self.base_dir / "languages"
