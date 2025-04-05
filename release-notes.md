@@ -1,4 +1,8 @@
-# Editor de Rádios do ETS 2 - Versão 1.0.1
+# Editor de Rádios do ETS 2 - Versão 1.0.3
+
+- Inclusão do Instalador para Windows
+
+## Editor de Rádios do ETS 2 - Versão 1.0.1/v1.0.2
 
 - Ajustes pequenos internos
 
