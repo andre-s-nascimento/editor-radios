@@ -5,6 +5,9 @@ on:
     tags:
       - "v*.*.*" # Gera um release apenas para tags versionadas (ex: v1.0.0)
 
+permissions:
+    contents: write
+      
 jobs:
   build:
     runs-on: windows-latest
