@@ -1,4 +1,8 @@
-# Editor de Rádio - Versão 1.0.0
+# Editor de Rádios do ETS 2 - Versão 1.0.1
+
+- Ajustes pequenos internos
+
+## Editor de Rádios do ETS 2 - Versão 1.0.0
 
 - Adicionada interface gráfica
 - Suporte a múltiplos idiomas
