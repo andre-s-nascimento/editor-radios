@@ -6,3 +6,5 @@ sh-add USERPROFILE.sshid_ed25519
 /dist/editor-radio
 *.iss
 *.webmanifest
+/bkp_live_streams.sii
+/Radios.txt
