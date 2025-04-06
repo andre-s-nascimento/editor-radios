@@ -1,4 +1,10 @@
-# Editor de Rádios do ETS 2 - Versão 1.0.3
+# Editor de Rádios do ETS 2 - Versão 1.0.4
+
+Hot Fix:
+
+- Correção do Issue #1 - Ao salvar, o formato do arquivo live_streams.sii era quebrado, salvando apenas a lista das rádios, sem observar o formato esperado pelo ETS2.
+
+## Editor de Rádios do ETS 2 - Versão 1.0.3
 
 - Inclusão do Instalador para Windows
 
