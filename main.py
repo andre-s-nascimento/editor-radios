@@ -317,15 +317,36 @@ class RadioStationEditor:
             )
             return
         
+        if not self.stations:
+            messagebox.showwarning(
+                self.config['messages'].get('warning_title', 'Warning'),
+                self.config['messages']['no_stations']
+            )
+            return
+        
+        if not self.current_file.lower().endswith('.sii'):
+            self.current_file += '.sii'
+        
         try:
             with open(self.current_file, 'w', encoding='utf-8') as f:
+                # Escreve o cabeçalho SiiNunit
+                f.write("SiiNunit\n")
+                f.write("{\n")
+                f.write("live_stream_def : _nameless.28a.c076.a0f0 {\n")
+                f.write(f" stream_data: {len(self.stations)}\n")
+                
+                # Escreve cada estação
                 for i, station in enumerate(self.stations):
                     url_encoded = self.encode_to_escaped(station['url'])
                     name_encoded = self.encode_to_escaped(station['name'])
                     genre_encoded = self.encode_to_escaped(station['genre'])
                 
-                    line = f'stream_data[{i}]: "{url_encoded}|{name_encoded}|{genre_encoded}|{station["country"]}|{station["bitrate"]}|{int(station["favorite"])}"\n'
+                    line = f' stream_data[{i}]: "{url_encoded}|{name_encoded}|{genre_encoded}|{station["country"]}|{station["bitrate"]}|{int(station["favorite"])}"\n'
                     f.write(line)
+                
+                # Fecha a estrutura
+                f.write(" }\n")
+                f.write("}\n")
         
             messagebox.showinfo(
                 self.config['messages'].get('success_title', 'Success'),

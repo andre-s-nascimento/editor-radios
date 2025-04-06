@@ -35,7 +35,8 @@
         "favorite_label": "Favorita:",
         "save_btn": "Guardar",
         "load_error": "Error al cargar archivo",
-        "invalid_file": "Formato de archivo inválido"
+        "invalid_file": "Formato de archivo inválido",
+        "no_stations" : "¡No hay estaciones para guardar!"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

@@ -35,7 +35,8 @@
         "favorite_label": "Favori:",
         "save_btn": "Kaydet",
         "load_error": "Dosya yüklenirken hata",
-        "invalid_file": "Geçersiz dosya formatı"
+        "invalid_file": "Geçersiz dosya formatı",
+        "no_stations" : "Kaydedilecek istasyon yok!"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

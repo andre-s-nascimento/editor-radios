@@ -35,7 +35,8 @@
         "favorite_label": "Favori :",
         "save_btn": "Enregistrer",
         "load_error": "Erreur de chargement",
-        "invalid_file": "Format de fichier invalide"
+        "invalid_file": "Format de fichier invalide",
+        "no_stations" : "Aucune station à enregistrer !"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",
