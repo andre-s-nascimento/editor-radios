@@ -35,7 +35,8 @@
         "favorite_label": "Избранное:",
         "save_btn": "Сохранить",
         "load_error": "Ошибка загрузки файла",
-        "invalid_file": "Неверный формат файла"
+        "invalid_file": "Неверный формат файла",
+        "no_stations" : "Нет станций для сохранения!"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

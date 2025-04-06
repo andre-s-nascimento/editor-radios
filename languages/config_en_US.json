@@ -35,7 +35,8 @@
         "favorite_label": "Favorite:",
         "save_btn": "Save",
         "load_error": "Error loading file",
-        "invalid_file": "Invalid file format"
+        "invalid_file": "Invalid file format",
+        "no_stations" : "No stations to save!"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

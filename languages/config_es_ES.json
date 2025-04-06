@@ -35,7 +35,8 @@
         "favorite_label": "Favorita:",
         "save_btn": "Guardar",
         "load_error": "Error al cargar el archivo",
-        "invalid_file": "Formato de archivo no válido"
+        "invalid_file": "Formato de archivo no válido",
+        "no_stations" : "¡No hay emisoras para guardar!"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

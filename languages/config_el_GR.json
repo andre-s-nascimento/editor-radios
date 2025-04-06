@@ -35,7 +35,8 @@
         "favorite_label": "Αγαπημένο:",
         "save_btn": "Αποθήκευση",
         "load_error": "Σφάλμα φόρτωσης αρχείου",
-        "invalid_file": "Μη έγκυρη μορφή αρχείου"
+        "invalid_file": "Μη έγκυρη μορφή αρχείου",
+        "no_stations" : "Δεν υπάρχουν σταθμοί για αποθήκευση!"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

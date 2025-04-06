@@ -35,7 +35,9 @@
         "favorite_label": "Favorit:",
         "save_btn": "Speichern",
         "load_error": "Fehler beim Laden",
-        "invalid_file": "Ungültiges Dateiformat"
+        "invalid_file": "Ungültiges Dateiformat",
+        "no_stations" : "Keine Sender zum Speichern!"
+        
     },
 "languages": {
     "pt_BR": "Português (Brasil)",

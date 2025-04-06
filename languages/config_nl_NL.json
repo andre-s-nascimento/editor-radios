@@ -35,7 +35,8 @@
         "favorite_label": "Favoriet:",
         "save_btn": "Opslaan",
         "load_error": "Fout bij laden bestand",
-        "invalid_file": "Ongeldig bestandsformaat"
+        "invalid_file": "Ongeldig bestandsformaat",
+        "no_stations" : "Geen stations om op te slaan!"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",
