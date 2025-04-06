@@ -12,7 +12,7 @@ Este é um editor gráfico de estações de rádio do EuroTruck Simulator 2 (arq
 
 ### 🔹 Versão Instalável (Windows)
 
-1. Baixe o instalador na seção de [Releases](https://github.com/andre-s-nascimento/editor-radio/releases).
+1. Baixe o instalador na seção de [Releases](https://github.com/andre-s-nascimento/editor-radios/releases)).
 2. Execute o instalador e siga as instruções.
 3. O programa será instalado no **C:\Program Files\EditorRadio** e poderá ser acessado pelo menu Iniciar.
 
