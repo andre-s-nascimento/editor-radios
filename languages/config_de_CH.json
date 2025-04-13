@@ -36,8 +36,11 @@
         "save_btn": "Speichern",
         "load_error": "Fehler beim Laden",
         "invalid_file": "Ungültiges Dateiformat",
-        "no_stations" : "Keine Sender zum Speichern!"
-        
+        "no_stations" : "Keine Sender zum Speichern!",
+        "backup_success": "Backup erfolgreich erstellt unter:\n{backup_path}",
+        "backup_warning": "Backup konnte nicht erstellt werden:\n{error}\n\nFortfahren ohne Backup...",
+        "backup_title_success": "Backup erstellt",
+        "backup_title_warning": "Backup-Warnung"
     },
 "languages": {
     "pt_BR": "Português (Brasil)",

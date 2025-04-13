@@ -36,7 +36,11 @@
         "save_btn": "Save",
         "load_error": "Error loading file",
         "invalid_file": "Invalid file format",
-        "no_stations" : "No stations to save!"
+        "no_stations" : "No stations to save!",
+        "backup_success": "Backup successfully created at:\n{backup_path}",
+        "backup_warning": "Could not create backup:\n{error}\n\nContinuing without backup...",
+        "backup_title_success": "Backup created",
+        "backup_title_warning": "Backup Warning"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

@@ -305,6 +305,29 @@ class RadioStationEditor:
     def open_file(self):
         file_path = filedialog.askopenfilename(filetypes=[("SII files", "*.sii"), ("All files", "*.*")])
         if file_path:
+            # Criar backup antes de abrir
+            try:
+                backup_dir = os.path.join(os.path.dirname(file_path), "backup")
+                os.makedirs(backup_dir, exist_ok=True)
+
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                filename = os.path.basename(file_path)
+                backup_path = os.path.join(backup_dir, f"{filename}.bak_{timestamp}")
+
+                # Copiar o arquivo original para o backup
+                import shutil
+                shutil.copy2(file_path, backup_path)
+
+                messagebox.showinfo(
+                self.config['messages']['backup_title_success'],
+                self.config['messages']['backup_success'].format(backup_path=backup_path)
+                )
+            except Exception as e:
+                messagebox.showwarning(
+                self.config['messages']['backup_title_warning'],
+                self.config['messages']['backup_warning'].format(error=str(e))
+                )
+
             self.current_file = file_path
             self.stations = self.load_file(file_path)
             self.update_treeview()
