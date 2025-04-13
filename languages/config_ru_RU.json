@@ -36,7 +36,11 @@
         "save_btn": "Сохранить",
         "load_error": "Ошибка загрузки файла",
         "invalid_file": "Неверный формат файла",
-        "no_stations" : "Нет станций для сохранения!"
+        "no_stations" : "Нет станций для сохранения!",
+        "backup_success": "Резервная копия успешно создана в:\n{backup_path}",
+        "backup_warning": "Не удалось создать резервную копию:\n{error}\n\nПродолжение без резервной копии...",
+        "backup_title_success": "Резервная копия создана",
+        "backup_title_warning": "Предупреждение резервного копирования"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

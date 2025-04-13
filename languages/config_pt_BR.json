@@ -36,7 +36,11 @@
         "save_btn": "Salvar",
         "load_error": "Erro ao carregar arquivo",
         "invalid_file": "Formato de arquivo inválido",
-        "no_stations" : "Nenhuma estação para salvar!"
+        "no_stations" : "Nenhuma estação para salvar!",
+        "backup_success": "Backup do arquivo criado com sucesso em:\n{backup_path}",
+        "backup_warning": "Não foi possível criar backup:\n{error}\n\nContinuando sem backup...",
+        "backup_title_success": "Backup criado",
+        "backup_title_warning": "Aviso de Backup"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",
