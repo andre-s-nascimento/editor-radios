@@ -36,7 +36,11 @@
         "save_btn": "Enregistrer",
         "load_error": "Erreur de chargement",
         "invalid_file": "Format de fichier invalide",
-        "no_stations" : "Aucune station à enregistrer !"
+        "no_stations" : "Aucune station à enregistrer !",
+        "backup_success": "Sauvegarde créée avec succès dans :\n{backup_path}",
+        "backup_warning": "Impossible de créer la sauvegarde :\n{error}\n\nPoursuite sans sauvegarde...",
+        "backup_title_success": "Sauvegarde créée",
+        "backup_title_warning": "Avertissement de sauvegarde"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

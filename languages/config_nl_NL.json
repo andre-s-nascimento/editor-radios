@@ -36,7 +36,11 @@
         "save_btn": "Opslaan",
         "load_error": "Fout bij laden bestand",
         "invalid_file": "Ongeldig bestandsformaat",
-        "no_stations" : "Geen stations om op te slaan!"
+        "no_stations" : "Geen stations om op te slaan!",
+        "backup_success": "Back-up succesvol aangemaakt op:\n{backup_path}",
+        "backup_warning": "Kon geen back-up maken:\n{error}\n\nDoorgaan zonder back-up...",
+        "backup_title_success": "Back-up aangemaakt",
+        "backup_title_warning": "Back-up waarschuwing"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

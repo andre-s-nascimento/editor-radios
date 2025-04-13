@@ -36,7 +36,11 @@
         "save_btn": "Zapisz",
         "load_error": "Błąd ładowania pliku",
         "invalid_file": "Nieprawidłowy format pliku",
-        "no_stations": "Brak stacji do zapisania!"
+        "no_stations": "Brak stacji do zapisania!",
+        "backup_success": "Kopia zapasowa utworzona pomyślnie w:\n{backup_path}",
+        "backup_warning": "Nie można utworzyć kopii zapasowej:\n{error}\n\nKontynuowanie bez kopii zapasowej...",
+        "backup_title_success": "Kopia zapasowa utworzona",
+        "backup_title_warning": "Ostrzeżenie kopii zapasowej"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

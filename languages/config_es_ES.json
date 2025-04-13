@@ -36,7 +36,11 @@
         "save_btn": "Guardar",
         "load_error": "Error al cargar el archivo",
         "invalid_file": "Formato de archivo no válido",
-        "no_stations" : "¡No hay emisoras para guardar!"
+        "no_stations" : "¡No hay emisoras para guardar!",
+        "backup_success": "Copia de seguridad creada con éxito en:\n{backup_path}",
+        "backup_warning": "No se ha podido crear la copia de seguridad:\n{error}\n\nContinuando sin copia de seguridad...",
+        "backup_title_success": "Copia de seguridad creada",
+        "backup_title_warning": "Aviso de copia de seguridad"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",

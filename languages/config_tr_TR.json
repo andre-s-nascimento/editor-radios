@@ -36,7 +36,11 @@
         "save_btn": "Kaydet",
         "load_error": "Dosya yüklenirken hata",
         "invalid_file": "Geçersiz dosya formatı",
-        "no_stations" : "Kaydedilecek istasyon yok!"
+        "no_stations" : "Kaydedilecek istasyon yok!",
+        "backup_success": "Yedek başarıyla oluşturuldu:\n{backup_path}",
+        "backup_warning": "Yedek oluşturulamadı:\n{error}\n\nYedek olmadan devam ediliyor...",
+        "backup_title_success": "Yedek oluşturuldu",
+        "backup_title_warning": "Yedek Uyarısı"
     },
     "languages": {
         "pt_BR": "Português (Brasil)",
