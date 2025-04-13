@@ -8,8 +8,8 @@ sh-add USERPROFILE.sshid_ed25519
 *.webmanifest
 /bkp_live_streams.sii
 /Radios.txt
-backup/live_streams.sii.bak_20250413_015741
 backup/bkp_live_streams.sii.bak*
 backup/live_streams.sii.bak_*
-__pycache__/main.*
-__pycache__/main.cpython-313.pyc
+.coverage
+__pycache__/
+*.pyc
