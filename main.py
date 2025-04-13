@@ -49,7 +49,9 @@ class RadioStationEditor:
                     return json.load(f).get('language', self.default_language)
             else:
                 # Cria arquivo com idioma padrão se não existir
-                self.save_language_preference(self.default_language)
+                self.settings_path.parent.mkdir(parents=True, exist_ok=True)  # Garante que o diretório existe
+                with open(self.settings_path, 'w', encoding='utf-8') as f:
+                    json.dump({'language': self.default_language}, f)
                 return self.default_language
         except Exception as e:
             print(f"Erro ao carregar configurações: {e}")
@@ -97,6 +99,7 @@ class RadioStationEditor:
         if self.load_language_config(lang_code):
             self.save_language_preference(lang_code)
             self.reload_ui()
+            return True  # Adicione este retorno
         else:
             # Mensagem de erro atualizada com o caminho correto
             lang_file = self.get_language_path(lang_code)
@@ -105,6 +108,7 @@ class RadioStationEditor:
                 f"Falha ao carregar idioma {lang_code}\n"
                 f"Verifique se o arquivo existe em:\n{lang_file}"
             )
+            return False  # Adicione este retorno
     
     def validate_config(self):
         """Garante que o arquivo de idioma tem todas chaves necessárias"""
@@ -136,14 +140,15 @@ class RadioStationEditor:
             errors.append(f"Arquivo de idioma padrão {default_lang_path} não encontrado")
 
         if errors:
-            messagebox.showerror(
-                "Problemas na Estrutura",
-                "Os seguintes problemas foram encontrados:\n\n" + 
-                "\n".join(errors) +
-                "\n\nO programa pode não funcionar corretamente."
-            )
-            return False
-        return True
+            if hasattr(self, 'root') and getattr(self.root, 'winfo_exists', lambda: False)():
+                messagebox.showerror(
+                    "Problemas na Estrutura",
+                    "Os seguintes problemas foram encontrados:\n\n" + 
+                    "\n".join(errors) +
+                    "\n\nO programa pode não funcionar corretamente."
+                )
+            return False  # Retorna False quando há erros
+        return True  # Retorna True quando tudo está OK
 
     def create_menu(self):
         menubar = Menu(self.root)
@@ -459,6 +464,7 @@ class RadioStationEditor:
                 self.config['messages']['select_station']
             )
             return
+
         item_id = selected[0]
         index = self.tree.index(item_id)
         self.edit_station(index)
@@ -549,13 +555,13 @@ class RadioStationEditor:
         selected = self.tree.selection()
         if not selected:
             messagebox.showwarning(
-                self.config['messages'].get('warning_title', 'Warning'),
+                self.config['messages']['warning_title'],
                 self.config['messages']['select_station']
             )
             return
-    
+        
         if messagebox.askyesno(
-            self.config['messages'].get('confirm_title', 'Confirm'),
+            self.config['messages']['confirm_title'],
             self.config['messages']['confirm_remove']
         ):
             item_id = selected[0]
