@@ -13,7 +13,7 @@ Este é um editor gráfico avançado para estações de rádio do Euro Truck Sim
 
 ### 🔹 Versão Instalável (Windows)
 
-1. Baixe na [página de Releases](https://github.com/andre-s-nascimento/editor-radios/releases)
+1. Baixe na [página de Releases](https://github.com/adambravo79/editor-radios/releases)
 2. Execute o instalador
 3. Siga as instruções na tela
 
@@ -108,4 +108,4 @@ Este projeto é licenciado sob a licença **MIT**. Veja o arquivo `LICENSE` para
 
 ---
 
-**Desenvolvido por [Andre Soares Nascimento]** 🚛📻
+**Desenvolvido por [Andre "AdamBravo" Nascimento]** 🚛📻
