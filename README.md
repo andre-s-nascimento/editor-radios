@@ -41,6 +41,7 @@ project_root/
 1. **Arquivos de Idioma** (`languages/`):
    - Formato JSON com todas as traduções da interface
    - Estrutura padrão:
+
      ```json
      {
        "app_title": "Editor de Rádio",
